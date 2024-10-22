@@ -3,97 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-
-    <style>
-        body{
-            font-family: sans-serif;
-            line-height: 1.6;
-        }
-
-        header{
-            margin: 20px;
-        }
-
-        nav{
-            margin: 20px;
-        }
-
-        section{
-            margin: 20px;
-        }
-        article{
-            margin: 20px;
-        }
-
-        footer{
-            margin: 20px;
-        }
-
-        nav ul{
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li{
-            display: inline;
-            margin-right: 15px;
-        }
-    </style>
+    <title>Your Name - Tweets</title>
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
-    </nav>
+    <!-- Header Section with Navigation Links -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
 
-
+    <!-- Main Section -->
     <main>
-
+        <!-- Article containing main content -->
         <article>
-            <h1>Welcome to My Portfolio</h1>
+            <h1>Check Out My Tweets</h1>
 
-            <section id="INtroduction">
-                <h2>Introduction</h2>
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Just an example tweet. Learning web development is awesome! <a href="https://twitter.com/example/status/1234567890">December 5, 2023</a></p>&mdash; Example User (@example)
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-                <p>Hi, I'm a web developer passionate about building dynamic and user-friendly websites. This portfolio showcases some of my latest projects.</p>
-                <p>I enjoy working with JavaScript, CSS, and HTML to bring web designs to life. Each project I work on teaches me something new.</p>
-                <p>In addition to coding, I like to write about technology trends and tutorials to help others learn about web development.</p>
-                <p>Feel free to browse through my projects and connect with me via social media!</p>
-            </section>
-
-            <section id="projects">
-                <h3>Projects</h3>
-                <article class="project">
-                    <h3>project 1</h3>
-                    <p>description about the project </p>
-                    <a href="https://yourwebsite.com" target="_blank">here</a>
-                </article>
-
-                <article class="project">
-                    <h3>project 2</h3>
-                    <p>description about the project </p>
-                    <a href="https://yourwebsite.com" target="_blank">here</a>
-                </article>
-
-                <article class="project">
-                    <h3>project 3</h3>
-                    <p>description about the project </p>
-                    <a href="https://yourwebsite.com" target="_blank">here</a>
-                </article>
-            </section>
+            <!-- Link to Homepage -->
+            <p><a href="index.html">Back to Homepage</a></p>
         </article>
 
+        <!-- Aside Section with Placeholder -->
         <aside>
-            I will fell it up later
+            <p>Placeholder to add comment thread later</p>
         </aside>
-    </main>  
-      
+    </main>
+
+    <!-- Footer Section -->
     <footer>
-        <p>Nhlamulo Mahlabana</p>
+        <p>Nhlamulo Mahlabana - <a href="https://yourwebsite.com" target="_blank">here</a></p>
     </footer>
+
 </body>
 </html>
